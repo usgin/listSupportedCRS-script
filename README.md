@@ -5,17 +5,17 @@ Python script to edit JSON properties for ArcServer web services for ArcMap10.1 
 
 To run:
 -          Unzip the file
--          Open in a python environment (I use IDLE – I’m not a python expert by any means, but this one that I know)
+-          Open in a python environment (i.e., IDLE)
 -          You can open and edit the script if you’d like, or can just run
 -          Run the script
 -          It will ask you to:
-           -          Enter server name (server URL): 
-           -          Enter server port (usually 6080): 
-           -          Enter folder in your service directory to edit services (assumes the root is '/arcgis/admin/services/'):
-           -          Enter admin user name: 
-           -          Enter password:
+          -          Enter server name (server URL): 
+          -          Enter server port (usually 6080): 
+          -          Enter folder in your service directory to edit services (assumes the root is '/arcgis/admin/services/'):
+          -          Enter admin user name: 
+          -          Enter password:
 
-And it runs – it will edit all the services in that directory. I have an aasggeothermal directory, so just ran this on all the services in that one.
+This will edit all the services in the specified directory.
 
 
  Script and text provided by Doug Curl, Kentucky Geological Survey, 2014.
